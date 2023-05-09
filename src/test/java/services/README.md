@@ -22,7 +22,24 @@ System.out.println("@Anotacja");
 3. Pamiętaj o asercjach.
 
 #### Zadanie 3 - assertJ 
-Zadanie dla klasy Names
+1. Możesz utworzyć obiekt Names, przekazując do konstruktora dowolną liczbę Stringów po przecinku. 
+2. .getNames() powinno zwrócić listę imion w porządku alfabetycznym (A-Z).
+3. Napisz test (lub testy), które udowodnią że kod nie działa tak jak powinien.
+4. Napraw kod tak żeby zwracał listę w porządku alfabetycznym (zrób to dopiero po napisaniu testów).
+5. Uruchom testy ponownie i zobacz czy tym razem przechodzą.
 
-#### Zadanie 4 - WeirdStuff
-Zadanie dla klasy WeirdStuff
+#### Zadanie 4 - parametryzacja
+1. Parametry dla funkcji .add() którą chcemy przetestować
+```csv
+1,1,2
+2,3,5
+4,2,6
+```
+2. Użyj parametryzacji testów i napisz testy dla `Calculator.java` które utworzą kilka przypadków testowych z parametrów powyżej.
+3. Uruchom testy.
+
+#### Zadanie 5 - WeirdStuff
+
+1. Szalony developer napisał funkcję `public static String isItTheAnswerToUltimateQuestionOfLife(int n)` w klasie `WeirdStuf.java`.
+2. Funkcja ta nigdy nie powinna zwrócić napisu `That should not happen at all` nieważne jaki parametr n zastosujemy.
+3. Napisz testy, które sprawdzą wszystkie możliwe liczby, znajdź błąd w kodzie.
